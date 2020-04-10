@@ -52,10 +52,21 @@
     width: 50%;
 }
 
+.fa{
+    padding: 15px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.fa:hover{
+    color: #d5d5d5;
+    text-decoration: none;
+}
+
 footer{
     width: 100%;
     background-color: #5e4485;
-    padding: 3%;
+    padding: 5%;
     color: #ffffff;
 }
 
@@ -68,5 +79,13 @@ footer{
     }
     h2{
         font-size: 1.7em;
+    }
+
+}
+
+@media(max-width: 900px){
+    .fa{
+        font-size: 20px;
+        padding: 10px;
     }
 }
